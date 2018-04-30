@@ -11,15 +11,149 @@
    margin: 0;
  }
 
-/*Varibles*/
+/*Variables*/
 :root {
  --color-white: #ffff;
  --bg-color-alternative:#18bc9c;
+ --footer-color: #212529;
+ --color-grey: #2c3e50;
  --rem-small: 1.6rem;
- --rem-medium: 2rem;
- --rem-big: 2.4rem;
- --rem-large: 2.8rem;
+ --rem-regular: 2rem;
+ --rem-medium: 2.4rem;
+ --rem-big: 2.8rem;
+ --rem-large: 3.2rem;
  --rem-huge: 4.8rem;
  --rem-gigantic: 7.6rem;
- --space-medium: 16px;
+}
+
+/*Default*/
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.fixed-top {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.bg-alternative {
+  background-color: var(--bg-color-alternative);
+}
+
+.ft-color {
+  background-color: var(--footer-color);
+}
+
+.bg-grey {
+  background-color: var(--color-grey);
+}
+
+
+/*Box Model*/
+.display-inline-block {
+  display: inline-block;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.box-sizing-border-box {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 8.85rem;
+  margin-right: 8.85rem;
+}
+
+/*Navegation*/
+.nav {
+  padding: var(--rem-medium) var(--rem-small);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+
+/*Fonts*/
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.font-weight {
+  font-weight: 700;
+}
+
+.color-white {
+  color: var(--color-white);
+}
+
+.color-grey {
+  color: var(--color-grey);
+}
+
+.font-size-gigantic {
+  font-size: var(--rem-gigantic);
+}
+
+.font-size-huge {
+  font-size: var(--rem-huge);
+}
+
+.font-size-large {
+  font-size: var(--rem-large);
+}
+
+.font-size-big {
+  font-size: var(--rem-big);
+}
+
+.font-size-medium {
+  font-size: var(--rem-medium);
+}
+
+.font-size-regular {
+  font-size: var(--rem-regular);
+}
+
+.font-size-small {
+  font-size: var(--rem-small);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.letter-spacing{
+  letter-spacing: .1rem;
+}
+
+.padding-li {
+  padding-left: var(--rem-small);
+  padding-right: var(--rem-small);
+  padding-top: var(--rem-small);
+  padding-bottom: var(--rem-small);
+}
+
+.padding-sb {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
