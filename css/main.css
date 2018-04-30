@@ -1,0 +1,25 @@
+/*
+ * Estilos de tu proyecto
+ */
+
+ /*Reset*/
+ html {
+   font-size: 62.5%;
+ }
+
+ body {
+   margin: 0;
+ }
+
+/*Varibles*/
+:root {
+ --color-white: #ffff;
+ --bg-color-alternative:#18bc9c;
+ --rem-small: 1.6rem;
+ --rem-medium: 2rem;
+ --rem-big: 2.4rem;
+ --rem-large: 2.8rem;
+ --rem-huge: 4.8rem;
+ --rem-gigantic: 7.6rem;
+ --space-medium: 16px;
+}
