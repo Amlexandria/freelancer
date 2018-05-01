@@ -126,21 +126,6 @@ ul {
   align-items: center;
   }
 
-.botton-download {
- padding-left: 2rem;
- padding-right: 3rem;
- padding-top: 2rem;
- padding-bottom: 2rem;
- border: .2rem solid var(--color-white);
- border-radius: .5rem;
- font-size: var(--rem-regular);
-}
-
-#about  a:hover {
-  background-color: var(--color-white);
-  color: var(--color-grey);
-}
-
 /*Fonts*/
 .font-montserrat {
   font-family: 'Montserrat', sans-serif;
@@ -276,6 +261,21 @@ ul {
   vertical-align: middle;
 }
 
+.botton-download {
+ padding-left: 2rem;
+ padding-right: 3rem;
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+ border: .2rem solid var(--color-white);
+ border-radius: .5rem;
+ font-size: var(--rem-regular);
+}
+
+#about a:hover {
+  background-color: var(--color-white);
+  color: var(--color-grey);
+}
+
 /*Contact*/
 .form-text-container {
  padding-top: 5rem;
@@ -293,6 +293,17 @@ input#last-input-form {
  border: .2rem solid var(--color-white);
  border-radius: .5rem;
  font-size: var(--rem-regular);
+}
+
+/*Location*/
+.s-location {
+  height: 30.2rem;
+  background-color: var(--color-grey);
+}
+
+section#section-Location-A-A p {
+  font-family: Montserrat;
+  font-size: var(--rem-regular)
 }
 
 /*Assets*/
