@@ -83,6 +83,10 @@ ul {
   line-height: 6.4rem;
 }
 
+.line-height-30 {
+  line-height: 3rem;
+}
+
 .margin-top-bottom-0 {
   margin-top: 0;
   margin-bottom: 0;
@@ -123,6 +127,15 @@ ul {
   align-items: center;
   }
 
+.botton-download {
+ padding-left: 2rem;
+ padding-right: 3rem;
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+ border: .2rem solid var(--color-white);
+ border-radius: .5rem;
+ font-size: var(--rem-regular);
+}
 
 /*Fonts*/
 .font-montserrat {
@@ -211,7 +224,6 @@ ul {
 }
 
 /*Sections:*/
-/*Header*/
 .hdr {
   height: 78.3rem;
   display: block;
@@ -225,16 +237,40 @@ ul {
   margin-right: 10.45rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
 
+.padding-top5-bottom9 {
+  padding-top: 5rem;
+  padding-bottom: 8.3rem;
 }
 
 .s-portfolio {
-  padding-top: 5rem;
-  padding-bottom: 9.6rem;
   margin-bottom: -.3rem;
 }
+/*About*/
 
+.s-about {
+  background-color: var(--bg-color-alternative);
+  height: 61rem;
+  padding-left: 9.6rem;
+  padding-right: 9.6rem;
+}
 
+.padding-right-p {
+  padding right:  3rem;
+  padding-left: 3rem;
+}
+
+.text-container {
+ padding-left: 21rem;
+ padding-right: 21rem;
+ padding-bottom: 4rem;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+
+}
 
 /*Assets*/
 /*Images*/
@@ -267,15 +303,20 @@ ul {
 }
 
 /*Icons*/
-.white-star-icon {
+
+.profile-star-icon {
   font-size: var(--rem-large);
   padding: 0 .8rem;
   top: -2.65rem;
 }
 
-.grey-star-icon {
+.star-icon {
   font-size: var(--rem-big);
   padding: 0 .8rem;
   top: -2.65rem;
 }
+
+.download-icon {
+  padding-left: .8rem;
+  padding-right: 1rem;
 }
