@@ -149,6 +149,7 @@ ul {
   color: var(--color-grey);
 }
 
+
 .text-align-center {
   text-align:center;
 }
@@ -227,9 +228,12 @@ ul {
 
 }
 
-.padding-left-right-15 {
-
+.s-portfolio {
+  padding-top: 5rem;
+  padding-bottom: 9.6rem;
+  margin-bottom: -.3rem;
 }
+
 
 
 /*Assets*/
@@ -241,10 +245,37 @@ ul {
   margin-bottom: var(--rem-huge);
 }
 
+.container-all-images {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+}
+
+.container-img {
+  height:  25.2766rem;
+  width: 35rem;
+  padding: 1.5rem;
+}
+
+.img-size {
+  height: 100%;
+  width: 100%;
+}
 
 /*Icons*/
-.star-icon {
+.white-star-icon {
   font-size: var(--rem-large);
   padding: 0 .8rem;
   top: -2.65rem;
+}
+
+.grey-star-icon {
+  font-size: var(--rem-big);
+  padding: 0 .8rem;
+  top: -2.65rem;
+}
 }
