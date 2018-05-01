@@ -137,6 +137,11 @@ ul {
  font-size: var(--rem-regular);
 }
 
+#about div a:hover {
+  background-color: var(--color-white);
+  color: var(--color-grey);
+}
+
 /*Fonts*/
 .font-montserrat {
   font-family: 'Montserrat', sans-serif;
